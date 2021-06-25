@@ -14,7 +14,7 @@ header{
     display:flex;
     justify-content:space-around;
     height: 300px;
-    max-width: 1200px;
+    max-width: 100%;
 }
 #part_right_header{
     height: 250px;
@@ -59,4 +59,10 @@ header h1{
     #part_right_header{
         display: none;
     }   
+    #part_left_header{
+        margin-left: 0;
+    }
+    #presentation{
+        margin-bottom: 10px;
+    }
 }
