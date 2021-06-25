@@ -50,6 +50,45 @@ header h1{
     text-align: left;
     margin-top: 50px;
 }
+
+/*Section*/
+section{
+    display:flex;
+    height: 300px;
+    max-width: 100%;
+    justify-content: space-around;
+}
+#mes{
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 0 3px 0 3px;
+    font-weight: bold;
+    color: #002f66;
+    font-family: 'RosveliT-Italic';  
+}
+#part_right_section{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    color: #002f66;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+}
+#part_left_section{
+    height: 120px;
+    width:120px;
+    align-self: center;
+    flex:1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#part_left_section img{
+    max-height: 100%;
+    max-width: 100%;  
+}
+
 /*Responsive*/
 @media screen and (max-width:700px){
     header{
@@ -65,4 +104,10 @@ header h1{
     #presentation{
         margin-bottom: 10px;
     }
+    #part_left_section{
+        display: none;
+    }
+    #part_right_section{
+        margin: 0 10px;
+        align-items: center;
 }
