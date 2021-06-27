@@ -72,7 +72,6 @@ section{
     flex:3;
     color: #002f66;
     flex-wrap: wrap;
-    align-items: left;
     justify-content: center;
 }
 #part_left_section{
